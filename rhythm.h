@@ -36,30 +36,30 @@ struct measure {
      */
     unsigned char interval;
     /*!
-     @var rhythem_index
+     @var rhythm_index
      @abstrace An index to which sequence to step through.
      */
-    unsigned char rhythem_index;
+    unsigned char rhythm_index;
     /*!
-     @var rhythem_sentinel
+     @var rhythm_sentinel
      @abstrace The finial size of the sequence.
      */
-    unsigned char rhythem_sentinel;
+    unsigned char rhythm_sentinel;
     /*!
-     @var rhythem_end
+     @var rhythm_end
      @abstrace When shoud the internal internval restart
      */
-    unsigned char rhythem_end;
+    unsigned char rhythm_end;
     /*!
-     @var rhythems
-     @abstrace A pointer to which rhythem table to access
+     @var rhythms
+     @abstrace A pointer to which rhythm table to access
      */
-    unsigned int * rhythems;
+    unsigned int * rhythms;
 };
 
 /*!
  @function measure_init
- @abstract Initialize measure structure to work with rhythem size.
+ @abstract Initialize measure structure to work with rhythm size.
  @param m
     An allocated measure structure.
  @param size
@@ -69,11 +69,11 @@ struct measure * measure_init(struct measure * m, enum measure_size size);
 
 /*!
  @function measure_set_rhythm
- @abstract Set which Bjorklund rhythem to step through.
+ @abstract Set which Bjorklund rhythm to step through.
  @param m
     An initialzied measure structure.
  @param i
-    An index to the rhythem to references.
+    An index to the rhythm to references.
  
  */
 void measure_set_rhythm(struct measure *m, unsigned int i);

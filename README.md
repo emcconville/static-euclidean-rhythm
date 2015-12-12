@@ -6,7 +6,7 @@ The actual implementation of Bjorklund algorithm is simple, but if the phases ar
 
 This projects locks the resulting binary sequence into a quick static look-up table. It can be included directly, copied, or even put in [`PROGMEM`](http://www.nongnu.org/avr-libc/user-manual/pgmspace.html).
 
-A simple [`test.c`](test.c) file exsits,  and [`rhythm.c`](rhythm.c) as an example implmentation.
+A simple [`test.c`](test.c) file exists,  and [`rhythm.c`](rhythm.c) as an example implementation.
 
     # Build local test scriot
     clang test.c rhythm.c -o test.rhythm

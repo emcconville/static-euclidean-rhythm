@@ -33,12 +33,12 @@ int main(int argc, const char * argv[]) {
         
     }
     int i,j;
-    for (i = 0; i < M.rhythem_end+1; i++)
+    for (i = 0; i < M.rhythm_end+1; i++)
     {
         measure_init(&M, S);
         measure_set_rhythm(&M, i);
-        printf("E(%2d, %2d) = [ ", M.rhythem_index, M.rhythem_end);
-        for (j = 0; j < M.rhythem_end; j++) {
+        printf("E(%2d, %2d) = [ ", M.rhythm_index, M.rhythm_end);
+        for (j = 0; j < M.rhythm_end; j++) {
             if(measure_step(&M) > 0) {
                 printf("x ");
             } else {
