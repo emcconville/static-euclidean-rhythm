@@ -1,3 +1,21 @@
+/*
+ * This file is part of the Static Euclidean Rhythm library.
+ *   (https://github.com/emcconville/static-euclidean-rhythm)
+ * Copyright (c) 2015-2017 Eric McConville <emcconville@emcconville.com>.
+ * 
+ * Static Euclidean Rhythm library is free software: you can redistribute it
+ * and/or modify it under the terms of the GNU Lesser General Public License as
+ * published by the Free Software Foundation, version 3.
+ *
+ * Static Euclidean Rhythm library is distributed in the hope that it will be
+ * useful, but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+ * Lesser General Public License for more details.
+ *
+ * You should have received a copy of the GNU Lesser General Public License
+ * along with this program. If not, see <http://www.gnu.org/licenses/>.
+ */
+
 #ifndef RHYTHM8_H
 #define RHYTHM8_H
 
