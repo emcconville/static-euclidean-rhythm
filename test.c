@@ -1,11 +1,3 @@
-//
-//  test.c
-//  StaticEuclideanRhythm
-//
-//  Created by Eric McConville on 12/10/15.
-//  Copyright © 2015 Eric McConville. All rights reserved.
-//
-
 /* printf */
 #include <stdio.h>
 /* atoi */
