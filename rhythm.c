@@ -1,14 +1,4 @@
-//
-//  rhythm.c
-//  StaticEuclideanRhythm
-//
-//  Created by Eric McConville on 12/10/15.
-//  Copyright © 2015 Eric McConville. All rights reserved.
-//
-
 #include "rhythm.h"
-
-
 
 struct measure * measure_init(struct measure * m, enum measure_size size)
 {
@@ -51,8 +41,8 @@ void measure_set_rhythm(struct measure *m, unsigned int i)
 
 unsigned int measure_step(struct measure * m)
 {
-    int step = (m->rhythm_end - 1) - m->interval;
+    int step;
+    step = (m->rhythm_end - 1) - m->interval;
     m->interval = (m->interval + 1) % m->rhythm_end;
-    int j = m->rhythms[m->rhythm_index] & ( 1 << step);
-    return j;
+    return m->rhythms[m->rhythm_index] & ( 1 << step);
 }

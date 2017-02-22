@@ -1,13 +1,5 @@
-//
-//  rhythm24.h
-//  StaticEuclideanRhythm
-//
-//  Created by Eric McConville on 12/11/15.
-//  Copyright © 2015 Eric McConville. All rights reserved.
-//
-
-#ifndef rhythm24_h
-#define rhythm24_h
+#ifndef RHYTHM24_H
+#define RHYTHM24_H
 
 #define RHYTHM_24_SENTINEL 26
 #define MEASURE_24_LENGTH 24

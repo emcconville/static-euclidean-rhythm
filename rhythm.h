@@ -1,13 +1,5 @@
-//
-//  rhythm.h
-//  StaticEuclideanRhythm
-//
-//  Created by Eric McConville on 12/10/15.
-//  Copyright © 2015 Eric McConville. All rights reserved.
-//
-
-#ifndef rhythm_h
-#define rhythm_h
+#ifndef RHYTHM_H
+#define RHYTHM_H
 
 #include "rhythm8.h"
 #include "rhythm16.h"

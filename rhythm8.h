@@ -1,13 +1,5 @@
-//
-//  rhythm8.h
-//  StaticEuclideanRhythm
-//
-//  Created by Eric McConville on 12/11/15.
-//  Copyright © 2015 Eric McConville. All rights reserved.
-//
-
-#ifndef rhythm8_h
-#define rhythm8_h
+#ifndef RHYTHM8_H
+#define RHYTHM8_H
 
 #define RHYTHM_8_SENTINEL 10
 #define MEASURE_8_LENGTH 8

@@ -1,13 +1,5 @@
-//
-//  rhythm32.h
-//  StaticEuclideanRhythm
-//
-//  Created by Eric McConville on 12/11/15.
-//  Copyright © 2015 Eric McConville. All rights reserved.
-//
-
-#ifndef rhythm32_h
-#define rhythm32_h
+#ifndef RHYTHM32_H
+#define RHYTHM32_H
 
 #define RHYTHM_32_SENTINEL 34
 #define MEASURE_32_LENGTH 32

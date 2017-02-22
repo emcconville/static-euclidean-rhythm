@@ -1,13 +1,5 @@
-//
-//  rhythm16.h
-//  StaticEuclideanRhythm
-//
-//  Created by Eric McConville on 12/11/15.
-//  Copyright © 2015 Eric McConville. All rights reserved.
-//
-
-#ifndef rhythm16_h
-#define rhythm16_h
+#ifndef RHYTHM16_H
+#define RHYTHM16_H
 
 #define RHYTHM_16_SENTINEL 18
 #define MEASURE_16_LENGTH 16
